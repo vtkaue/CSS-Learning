@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assents/Screen Shot 2021-05-14 at 15.03.36.png" type="image/x-icon">
+    <title>Unidade de Medidas</title>
+</head>
+        <!--// Unidade de Medidas // -->
+        <!--
+            #ABSOLUTAS =
+
+            - cm => Pouco usado
+            - in (1 polegada e igual a 2.54cm) => pouco usado
+            - px (Mais ultilizado)
+
+            #RELATIVAS (Se relacionam a algo) =
+
+            - em (Se relaciona ao elemento pai)
+            - rem (relativo ao elemento root (padrã os textos 16px))
+            - % (Relativo ao elemento pai)
+            - vw (viewport width) -> Largura (relativo a tela)
+            - vh (viewport height) -> Altura (relativa a tela)
+        -->
+<body>
+   
+    <div id="div-pai"> 
+        
+        <div id="div-filha">
+            
+        </div>
+    </div>
+
+</body>
+
+<style>
+    
+    #div-pai {
+        font-size: 32px;
+        background-color: blue;
+        width: 50vw;
+        height: 50vh;
+    }
+    #div-filha {
+        font-size: 0.5em;
+        background-color: crimson;
+        width: 50%;
+        height: 50%;
+
+    }
+    
+
+</style>
+
+</html>

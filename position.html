@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+  </head>
+  <body>
+    <!--      // POSITION //
+     => Position: static (padrão) - Não aceita valores de top, bottom, right e left;
+     => Position: fixed - Fixa o elemento na tela;
+     => Position: sticky - age como um adesivo, fixa o elemento só onde eu determinar;
+     => Position: relative - posição relativa a outro elemento ou a página;
+     => Position: absolute - posição absoluta(fixa) a algum elemento ou página;
+
+        Propriedades:
+            -top
+            -bottom
+            -left
+            -right
+    -->
+
+    <div class="div-dad">
+      <div class="div-son"></div>
+    </div>
+  </body>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      height: 250vh;
+    }
+    .div-dad {
+      height: 350px;
+      width: 350px;
+      background-color: blue;
+      position: sticky;
+      margin-top: 250px;
+      top: 0;
+    }
+    .div-son {
+      height: 150px;
+      width: 150px;
+      background-color:goldenrod;
+    }
+  </style>
+</html>

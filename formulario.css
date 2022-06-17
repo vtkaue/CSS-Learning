@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff3a3;
+    
+}
+#area {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px
+}
+h2 {
+    position: absolute;
+    color: #002f89;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin-top: -35px;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #002f89;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.input-one {
+    display: block;
+    margin-top: 7px;
+    border: 2px solid #00d8a7;
+    border-radius: 7px;
+    height: 25px;
+    padding-left: 10px;
+}
+.input-color {
+    display: block;
+    margin-top: 7px;
+    border: 2px solid #00d8a7;
+    border-radius: 7px;
+    height: 25px;
+}
+textarea {
+    display: block;
+    margin-top: 7px;
+    border: 2px solid #00d8a7;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: rgb(224, 221, 221);
+    color: rgb(5, 4, 4);
+    
+}
+
+div {
+    margin-top: 7px;
+    word-spacing: 5px;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+.button-one {
+    margin-top: 26px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90px;
+}
+.button-two {
+    margin-top: 26px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+button:hover {
+    background-color: blueviolet;
+    height: 40px;
+    width: 120px;
+    border: 2px solid red;
+    color: azure;
+}

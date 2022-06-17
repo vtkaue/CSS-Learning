@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="area"> 
+        <h2>Cadastro</h2>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <label for="#">Nome
+            <input class="input-one" type="text" required>
+        </label>
+
+        <label for="#">Email
+            <input class="input-one" type="mail" required>
+        </label>
+
+        <label  for="#">Idade
+            <input class="input-one" type="number" step="2" required min="12" max="99">
+        </label>
+
+        <label  for="#">Data de Nascimento
+            <input class="input-one" type="date" required>
+        </label>
+
+        <label for="#">Onde você possui conta:
+            <div>
+                <input class="checkbox" type="checkbox" required>Instagram
+
+                <input class="checkbox" type="checkbox" required>Facebook
+
+                <input class="checkbox" type="checkbox" required>Youtube
+            </div>
+        </label>
+
+        <label for="#">Sexo
+            <div>
+                <input class="radio" name="radio" type="radio" required> Masculino
+                <input class="radio" name="radio" type="radio" required> Feminino
+            </div>
+        </label>
+
+        <label for="#"> Cor dos olhos
+            <input class="input-color"  type="color" required>
+        </label>
+        <label  for="#">Biografia
+            <textarea  name="" id="" cols="30" rows="3"></textarea>
+        </label>
+
+        <label  for="#"> Foto do perfil
+            <input class="input-one" type="file" accept="image/*" required>
+        </label>
+
+        <label  for="#">Telefone
+            <input class="input-one" type="tel" required>
+        </label>
+
+        <label  for="#">Link do perfil do Facebook
+            <input class="input-one" type="url" required>
+        </label>
+
+        <label  for="#">Senha
+            <input class="input-one" type="password" minlength="6" maxlength="8" inputmode="numeric">
+        </label>
+
+        <button class="button-one" type="reset">Limpar</button>
+        <button class="button-two" type="submit">Enviar Dados</button>
+
+    </form>
+</div>
+</body>
+</html>
